@@ -174,7 +174,7 @@ main {
 }
 
 .blocks {
-    border: 1px solid grey;
+    border: 1px solid rgb(219, 219, 219);
     width: 200px;
     padding: 10px;
     border-radius: 10px;
@@ -224,7 +224,7 @@ main {
 .first_aside {
     border: 1px solid rgb(192, 192, 192);
     width: 100%;
-    margin-top: 40px;
+    margin-top: 50px;
     border-radius: 10px;
     padding: 15px;
 }
@@ -293,6 +293,254 @@ main {
     justify-content: space-between;
 }
 
-.aside_and_main .main {
-    width: 74%;
+.main_content {
+    width: 72%;
 }
+
+.main_content .small_containers {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_first_row h4 {
+    font-size: 14px;
+    margin-top: 40px;
+    width: 210px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    padding-bottom: 10px;
+}
+
+.main_image_text_rating {
+    display: flex;
+    border: 1px solid rgb(219, 219, 219);
+    width: 200px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.main_image_text_rating .img {
+    margin-top: 10px;
+}
+
+.main_img_text {
+    margin-left: 10px;
+}
+
+.main_img_text h6 {
+    margin-top: 10px;
+}
+
+.main_img_text i {
+    color: orange;
+    font-size: 8px;
+}
+
+.main_img_text p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: rgb(110, 110, 110);
+}
+
+.main_img_text .p_span {
+    display: flex;
+}
+
+.main_img_text .p_span p {
+    font-size: 12px;
+    margin-top: 3px;
+    margin-left: 5px;
+    color: rgb(110, 110, 110);
+    text-decoration: line-through;
+}
+
+.main_img_text .p_span span {
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 3px;
+    font-weight: bold;
+    color: var(--pink_color);
+}
+
+.deal_of_day h4 {
+    margin-top: 50px;
+    font-size: 17px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    padding-bottom: 5px;
+}
+
+.deal_img_text {
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    padding: 2px 0px 30px 2px;
+}
+
+.deal_text_button {
+    width: 400px;
+    padding-top: 20px;
+}
+
+.deal_text_button i {
+    color: orange;
+    font-size: 11px;
+}
+
+.deal_text_button h5 {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.deal_text_button p {
+    font-size: small;
+    color: rgb(110, 110, 110);
+    margin-top: 5px;
+}
+
+.deal_p_span {
+    display: flex;
+}
+
+.deal_p_span span {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--pink_color);
+    margin-top: 5px;
+}
+
+.deal_p_span p{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.deal_text_button button {
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    background-color: var(--pink_color);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.already_sold {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.already_sold h6 {
+    margin: 0px 5px;
+}
+
+.already_sold span {
+    font-weight: bolder;
+}
+
+.graph {
+    padding: 3px;
+    background-color: lightgrey;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.graph .sold {
+    padding: 1px;
+    background-color : var(--pink_color);
+    border-radius: 25px;
+    width: 40%;
+}
+
+.deal_text_button h6 {
+    font-size: 11px;
+    margin-top: 10px;
+}
+.time_left {
+    width: 55%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.time_left p {
+    background-color: rgb(219, 219, 219);
+    width: 30px;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.time_left p span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.product_list {
+    margin-top: 30px;
+}
+
+.product_list h4 {
+    font-size: 17px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    padding-bottom: 5px;
+}
+
+.items_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product_blocks {
+    width: 23%;
+}
+
+.item_blocks {
+    border: 1px solid rgb(219, 219, 219); 
+    width: 80%;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.item_blocks h6 {
+    color: var(--pink_color);
+}
+
+.item_blocks p {
+    font-size: small;
+    margin-top: 10px;
+}
+
+.item_blocks i {
+    color: orange;
+    font-size: 11px;
+}
+
+.item_blocks .p_span {
+    display: flex;
+    margin-top: 5px;
+}
+
+.item_blocks .p_span p {
+    font-size: 12px;
+    margin-top: 3px;
+    color: rgb(110, 110, 110);
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+
+.item_blocks .p_span span {
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 3px;
+    font-weight: bold;
+}
+
+
