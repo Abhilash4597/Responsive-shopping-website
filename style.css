@@ -407,7 +407,7 @@ main {
     margin-top: 5px;
 }
 
-.deal_p_span p{
+.deal_p_span p {
     font-size: 18px;
     font-weight: bold;
     text-decoration: line-through;
@@ -449,7 +449,7 @@ main {
 
 .graph .sold {
     padding: 1px;
-    background-color : var(--pink_color);
+    background-color: var(--pink_color);
     border-radius: 25px;
     width: 40%;
 }
@@ -458,12 +458,14 @@ main {
     font-size: 11px;
     margin-top: 10px;
 }
+
 .time_left {
     width: 55%;
     display: flex;
     justify-content: space-evenly;
     margin-top: 10px;
 }
+
 .time_left p {
     background-color: rgb(219, 219, 219);
     width: 30px;
@@ -498,7 +500,7 @@ main {
 }
 
 .item_blocks {
-    border: 1px solid rgb(219, 219, 219); 
+    border: 1px solid rgb(219, 219, 219);
     width: 80%;
     border-radius: 10px;
     padding: 15px;
@@ -544,7 +546,7 @@ main {
     padding-bottom: 30px;
 }
 
-.testimonial{
+.testimonial {
     width: 25%;
 }
 
@@ -678,7 +680,7 @@ main {
     justify-content: left;
 }
 
-.service_lines h6{
+.service_lines h6 {
     color: rgb(110, 110, 110);
 }
 
@@ -733,7 +735,7 @@ footer {
 
 .footer_border {
     border-bottom: 1px solid grey;
-    padding: 2%;
+    padding: 2% 0%;
 }
 
 .footer_directory {
@@ -744,6 +746,7 @@ footer {
 .footer_directory h4 {
     font-size: 15px;
     color: var(--pink_color);
+    margin-bottom: 2%;
 }
 
 .directory_row p {
@@ -751,12 +754,12 @@ footer {
     color: rgb(110, 110, 110);
     margin-top: 10px;
     margin-bottom: 20px;
-} 
+}
 
 .directory_row p span {
     font-size: 15px;
     font-weight: bold;
-} 
+}
 
 .footer_column {
     max-width: 70%;
@@ -765,16 +768,16 @@ footer {
     justify-content: space-between;
 }
 
-.column_block {
+.footer_column .last {
     width: 18.5%;
 }
 
 .column_block h4 {
     font-size: 14px;
     color: white;
-    margin-bottom: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid var(--pink_color);
+    text-decoration: underline var(--pink_color);
+    text-underline-offset: 10px;
     max-width: 100%;
 }
 
