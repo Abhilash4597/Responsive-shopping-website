@@ -57,21 +57,22 @@
 }
 
 .searching {
-    border: 1px solid rgb(110, 110, 110);
+    /* border: 1px solid rgb(110, 110, 110);
     border-radius: 10px;
-    padding: 1px 5px;
+    padding: 1px 5px; */
 }
 
 .searching input {
-    border: none;
+    border: 1px solid rgb(110, 110, 110);
+    border-radius: 10px;
+    padding: 1px 10px;
     width: 40em;
     height: 2.5em;
-    padding-left: 1em;
 }
 
 .searching i {
     color: rgb(87, 85, 85);
-    margin-right: 10px;
+    margin-left: -40px;
 }
 
 .logo {
@@ -291,6 +292,7 @@ main {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    padding-bottom: 50px;
 }
 
 .main_content {
@@ -543,4 +545,190 @@ main {
     font-weight: bold;
 }
 
+.upper_footer {
+    display: flex;
+    padding-bottom: 30px;
+}
 
+.testimonial{
+    width: 25%;
+}
+
+.testimonial h4 {
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.testimonial_block {
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.testimonial_block img {
+    clip-path: circle();
+}
+
+.testimonial_block h4 {
+    font-size: 12px;
+    font-weight: bolder;
+    width: 100%;
+    margin-top: 30%;
+}
+
+.testimonial_block h5 {
+    font-size: 12px;
+    margin-top: 4%;
+    color: rgb(110, 110, 110);
+}
+
+.testimonial_block i {
+    font-size: 30px;
+    margin-top: 4%;
+    color: var(--pink_color);
+}
+
+.testimonial_block p {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 4%;
+    color: rgb(110, 110, 110);
+}
+
+.middle_img_content {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle_img_content img {
+    border-radius: 10px;
+}
+
+.onImg_text {
+    border-radius: 5px;
+    width: 40%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+
+.onImg_text p {
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    padding: 7px;
+    width: 50%;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.onImg_text h3 {
+    font-size: 20px;
+    width: 60%;
+    text-align: center;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.856);
+}
+
+.onImg_text h4 {
+    font-size: 13px;
+    color: rgb(110, 110, 110);
+    margin-top: 8px;
+}
+
+.onImg_text h5 {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+.service h4 {
+    border-bottom: 1px solid rgb(219, 219, 219);
+    width: 100%;
+}
+
+.service_block {
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.service_lines i {
+    font-size: 25px;
+    color: var(--pink_color);
+    padding-right: 30px;
+}
+
+.service_lines {
+    width: 100%;
+    padding: 6px;
+    display: flex;
+    justify-content: left;
+}
+
+.service_lines h6{
+    color: rgb(110, 110, 110);
+}
+
+.service_lines h5 {
+    color: rgba(0, 0, 0, 0.856);
+}
+
+.service_lines h5 {
+    margin-bottom: 5px;
+}
+
+.service_lines .last {
+    margin-left: 5px;
+}
+
+.vlog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vlog_block {
+    margin-top: 20px;
+    width: 23.5%;
+    margin-bottom: 5%;
+}
+
+.vlog_block img {
+    border-radius: 10px;
+}
+
+.vlog_block h6 {
+    color: var(--pink_color);
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.vlog_block h4 {
+    font-size: 14px;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.856);
+}
+
+.vlog_block h5 {
+    font-size: 12px;
+    margin-top: 10px;
+    color: rgb(110, 110, 110);
+}
